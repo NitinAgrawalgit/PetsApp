@@ -8,7 +8,7 @@ import com.example.petsapp.data.PetContract.PetEntry;
 public class PetDbHelper extends SQLiteOpenHelper {
 
     public static final String LOG_TAG = PetDbHelper.class.getSimpleName();
-    private static final String DATABASE_NAME = "petshelter.db"; //Changed from shelter.db to petshelter.db
+    private static final String DATABASE_NAME = "petshelter.db";
     private static final int DATABASE_VERSION = 1;
     public PetDbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -16,7 +16,6 @@ public class PetDbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        // Create a String that contains the SQL statement to create the pets table
         String SQL_CREATE_PETS_TABLE =  "CREATE TABLE " + PetEntry.TABLE_NAME + " ("
                 + PetEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + PetEntry.COLUMN_PET_NAME + " TEXT NOT NULL, "
