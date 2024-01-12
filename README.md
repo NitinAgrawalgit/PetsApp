@@ -1,1 +1,2 @@
-Using Sqlite Database by implementing CONTENT PROVIDERS and CURSOR LOADERS
+# PetsApp
+Implemented Android components like CONTENT PROVIDERS and CURSOR LOADERS with Sqlite Databases.
