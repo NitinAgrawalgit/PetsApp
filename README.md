@@ -1,3 +1,2 @@
 # PetsApp
-A Pet Shelter Management app. 
-Implemented Dynamic Android framework components like CONTENT PROVIDERS and CURSOR LOADERS with Sqlite Databases.
+Pet Shelter Management App: Implementes Dynamic Android framework components like Content Providers, Cursor Loaders etc. with Sqlite Databases.
